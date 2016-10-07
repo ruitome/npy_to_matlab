@@ -49,7 +49,7 @@ def npy_to_matlab(name):
 
 
 def printUsage():
-    print "Usage: %s output_file "%(sys.argv[0],filename)
+    print "Usage: python %s output_filename "%(sys.argv[0])
 
     
 if __name__ == "__main__":
